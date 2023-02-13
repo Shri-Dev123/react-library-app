@@ -34,7 +34,7 @@ const AppProvider = ({ children }) => {
     
 
     const fetchBooks = useCallback(async () => {
-        const URL = `http://openlibrary.org/search.json?title=${searchTerm}`;
+        const URL = `https://openlibrary.org/search.json?title=${searchTerm}`;
         setLoading(true);
         try {
             const response = await fetch(`${URL}`);
