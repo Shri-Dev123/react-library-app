@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppContext, AppProvider, useGlobalContext } from '../../context.js';
+import { useGlobalContext } from '../../context.js';
 import Book from "../BookList/Book";
 import Loading from "../Loader/Loader";
 import coverImg from "../../images/cover_not_found.jpg";

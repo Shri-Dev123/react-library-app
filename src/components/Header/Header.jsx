@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "../Navbar/Navbar";
 import SearchForm from "../SearchForm/SearchForm";
-import Science from '../Trending Subjects/Subject';
 import "./Header.css";
 
 const Header = () => {

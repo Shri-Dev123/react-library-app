@@ -5,7 +5,6 @@ import coverImg from "../../images/cover_not_found.jpg";
 import "../BookDetails/BookDetails.css";
 import {FaArrowLeft} from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
-import Pagination from '../../components/pagination/Pagination.jsx';
 
 const URL = "https://openlibrary.org/works/";
 
