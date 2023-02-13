@@ -1,7 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { useCallback } from 'react';
-import Pagination from './components/pagination/Pagination.jsx';
-import Paginate from 'react-paginate';
 const AppContext = React.createContext();
 
 
@@ -88,7 +86,6 @@ const AppProvider = ({ children }) => {
             {children}
 
 
-            {/* <Pagination prevPage={prevPage} pageNumbers={pageNumbers} setCurrentPage={setCurrentPage} nextPage={nextPage} /> */}
 
 
 
