@@ -15,7 +15,7 @@ const AppProvider = ({ children }) => {
   const [recordsPerPage] = useState(10);
   const indexOfLastRecord = currentPage * recordsPerPage;
   const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
-  const nPages = Math.ceil(books.length / recordsPserPage)
+  const nPages = Math.ceil(books.length / recordsPerPage)
   const pageNumbers = [...Array(nPages + 1).keys()].slice(1)
   console.log(books)
   console.log(nPages)
