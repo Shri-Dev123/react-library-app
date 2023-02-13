@@ -8,7 +8,7 @@ const Subject = () =>{
     const subject = useParams();
     const {  loading, setLoading} = useGlobalContext();
     const [myBooks,setMyBooks] = useState([])
-    const URL = `http://openlibrary.org/subjects/${subject.id}.json?`
+    const URL = `https://openlibrary.org/subjects/${subject.id}.json?`
     console.log(URL)
 
     useEffect(() => {
