@@ -6,15 +6,15 @@ const Pagination = ({prevPage,pageNumbers,pgNumber,setCurrentPage,nextPage}) =>{
         <nav >
             <ul className="pagination">
                 <li>
-                    <a onClick={prevPage} href="#">Previous</a>
+                    <button className="previous-button" onClick={prevPage}>Previous</button>
                 </li>
                 {pageNumbers.map(pgNumber=>(
                     <li key={pgNumber}>
-                        <a href="#" onClick={()=>setCurrentPage(pgNumber)} >{pgNumber}</a>
+                        <button button className="pagination-Button"  onClick={()=>setCurrentPage(pgNumber)} >{pgNumber}</button>
                     </li>
                 ))}
                 <li>
-                    <a onClick={nextPage} href="#" >Next</a>
+                    <button button className="next-button" onClick={nextPage} href="#" >Next</button>
                 </li>
             </ul>
         </nav>
