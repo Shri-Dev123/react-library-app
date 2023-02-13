@@ -24,6 +24,29 @@
   color: white;
 }
 
+.pagination{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color:  #B565A7;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.trendingGroup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Trending{
+  background-color: aquamarine;
+  border-radius: 50%;
+  padding: 1%;
+}
+
+.trending-heading{
+  text-align: center;
+}
 .App-link {
   color: #61dafb;
 }
